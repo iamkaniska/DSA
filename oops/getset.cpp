@@ -3,32 +3,35 @@
 using namespace std;
 class hero
 {
-    // private:
-    public:
+    private:
     int health;
     char grade;
     int level;
-    // public:
-    // int getHealth(){
-    //     return health;
-    // }
-    // char getGrade(){
-    //     return grade;
-    // }
-    // void setHealth(int h){
-    //     health=h;
-    // }
-    // void setGrade(int ch){
-    //     grade=ch;
-    // }
+    public:
+    int getHealth(){
+        return health;
+    }
+    char getGrade(){
+        return grade;
+    }
+    void setHealth(int h){
+        health=h;
+    }
+    void setGrade(int grade){
+        this->grade=grade;
+    }
     
 };
 int main(){
     //creation of an object
     hero kaniska;
-    // cout<<kaniska.getHealth()<<" ";
-    // cout<<kaniska.getGrade()<<" ";
-    cout<<sizeof(hero);
+
+    kaniska.setGrade('A');
+    kaniska.setHealth(50);
+    // cout<<kaniska.grade;
+    cout<<kaniska.getHealth()<<" ";
+    cout<<kaniska.getGrade()<<" ";
 }
+
 
 

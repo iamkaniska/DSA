@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/DSA/pattern2",
-      "program": "e:/DSA/pattern2/build/Debug/outDebug",
+      "cwd": "e:/DSA/2darray.cpp",
+      "program": "e:/DSA/2darray.cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

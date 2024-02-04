@@ -1,3 +1,1 @@
-{
-        cout<<arr[i];
-    }
+continue;

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/p_w/array",
-      "program": "e:/p_w/array/build/Debug/outDebug",
+      "cwd": "e:/DSA/array",
+      "program": "e:/DSA/array/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

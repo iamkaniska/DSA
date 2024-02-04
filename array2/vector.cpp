@@ -25,14 +25,14 @@ int main(){
     // cout<<v.capacity()<<endl;
     cout<<v.size()<<endl;
     
-    cout<<v[0];
-    cout<<v[1];
-    cout<<v[2];
-    cout<<v[3];
-    cout<<v[4];
-    cout<<v[5];
-    // cout<<v[6];
-    cout<<endl;
+    // cout<<v[0];
+    // cout<<v[1];
+    // cout<<v[2];
+    // cout<<v[3];
+    // cout<<v[4];
+    // cout<<v[5];
+    // // cout<<v[6];
+    // cout<<endl;
     
 
     
