@@ -1,29 +1,42 @@
 #include<iostream>
+#include<bits/stdc++.h>
 #include<vector>
 #include<algorithm>
 using namespace std;
-int copy(vector<int>&v){
-    for (int i = 0; i < v.size(); i++)
+void function(int n,int arr[i],int[j]){
+    int i=0;
+    int j=n-1;
+    while (i<j)
     {
-        cout<<v[i];
+       int temp=arr[i];
+       arr[i]=arr[j];
+       arr[j]=temp;
+       i++;
+       j--;
     }
 }
-void nose(int n,int arr[i]){
-    for (int i=n-1; i >= 0; i--)
+int main(){
+    int n;
+    cin>>n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin>>arr[i];
+    }
+    // int i=0;
+    // int j=n-1;
+    // while (i<j)
+    // {
+    //    int temp=arr[i];
+    //    arr[i]=arr[j];
+    //    arr[j]=temp;
+    //    i++;
+    //    j--;
+    // }
+    for (int i = 0; i < n; i++)
     {
         cout<<arr[i]<<" ";
     }
-}
- 
-int main(){
-    int x;
-    cin>>x;
-    vector<int>n(x);
-    for (int i = 0; i < n.size(); i++)
-    {
-        cin>>n[i];
-    }
-    
-
-
+         // still not working.....
+       
 }
