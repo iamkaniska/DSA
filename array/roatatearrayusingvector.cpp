@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 #include<vector>
 #include<algorithm>
+#include <commctrl.h>
 using namespace std;
 void function(int n,int arr[i],int[j]){
     int i=0;
