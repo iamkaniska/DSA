@@ -14,6 +14,7 @@ int main(){
     v.push_back(8);
     v.push_back(5);
     v.push_back(3);
+    v.push_back(19);
     for(int i = 0; i < v.size(); i++)
 {
     cout<<v[i]<<" ";
