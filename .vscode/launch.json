@@ -35,8 +35,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/DSA/array2",
-      "program": "e:/DSA/array2/build/Debug/outDebug",
+      "cwd": "e:/DSA/array",
+      "program": "e:/DSA/array/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
