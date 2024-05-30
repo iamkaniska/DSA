@@ -63,7 +63,7 @@
 
 
 
-/* optimize process ---- */
+/*Optimize process ---- */
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -75,31 +75,34 @@ void sort1(vector<int>&v){
     int min=0;
     while (mid<high)
     {
-        if (mid==2)
+        if (v[mid]==2)
         {
-            swap(mid,high);
+            swap(v[mid],v[high]);
             high--;
         }
-        if(mid==0){
-            swap(min,mid);
+        if(v[mid]==0){
+            swap(v[min],v[mid]);
             mid++;
             min++;
-        },,,
+        }if(v[mid]==1){
+            mid++;
+        }
+
     }
     
     
 }
 int main(){
     vector<int>v;
-    v.push_back(0);
-    v.push_back(1);
+    // v.push_back(0);
+    // v.push_back(1);
     v.push_back(2);
     v.push_back(0);
     v.push_back(1);
-    v.push_back(2);
-    v.push_back(0);
-    v.push_back(1);
-    v.push_back(2);
+    // v.push_back(2);
+    // v.push_back(0);
+    // v.push_back(1);
+    // v.push_back(2);
     for (int i = 0; i < v.size(); i++)
     {
         cout<<v[i];
