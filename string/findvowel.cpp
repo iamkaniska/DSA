@@ -15,11 +15,12 @@ int main()
      for(i= 0;i<n;i++){ 
         if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'){
             cnt++;
-            cout<<str[i];
         }
      }
-     cout<<endl;
-     cout<<cnt;
+    //  cout<<n-cnt;
+    //  cout<<endl;
+     cout<<cnt<<endl;
+     
 
     return 0;
 }
