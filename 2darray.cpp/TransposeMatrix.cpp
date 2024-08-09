@@ -1,4 +1,5 @@
 /* write a program add 2 matrix... */
+/* add extra comment */
 #include<iostream>
 using namespace std;
 int main(){
@@ -31,7 +32,6 @@ int main(){
             cout<<mat1[i][j]<<" ";
         }
         cout<<endl;
-        
     }
     
 
