@@ -27,7 +27,9 @@ int main(){
     for(int j=minr;j<=maxr;j++){
        cout<<(arr[minc][j])<<" " ;
     }
-    // for(int j=minr;j<=maxr;j++){
-    //    cout<<(arr[minc][j]<<" ") ;
-    // }
+    for (size_t i = 0; i < count; i++)
+    {
+        /* code */
+    }
+    
 }
