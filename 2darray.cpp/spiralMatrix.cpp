@@ -9,27 +9,32 @@ int main(){
     cin>>m;
     int arr[n][m];
     cout<<"Enter the array userInput: ";
+    cout<<endl;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             cin>>arr[i][j];
         }
     }
-    int minr=0, minc=0;
-    int maxr=n-1,maxc=m-1;
-    for(int j=minr;j<=maxr;j++){
-       cout<<(arr[minc][j])<<" " ;
-    }
-    minr++;
-    for(int i=minc+1;i<=maxc;i++){
-       cout<<(arr[i][minr+1])<<" " ;
-    }
-    minc++;
-    for(int j=minr;j<=maxr;j++){
-       cout<<(arr[minc][j])<<" " ;
-    }
-    for (size_t i = 0; i < count; i++)
-    {
-        /* code */
-    }
+    int top=0, bottom=n-1,left=0,right=m-1; 
+     while(top<=bottom && left<=right){
+        for(int i=left;i<=right;i++){
+            cout<<arr[top][i]<<" ";
+        }
+        top+=1;
+        for(int i=top;i<=bottom;i++){
+            cout<<arr[i][right]<<" ";
+            
+        }
+        right--;
+        for(int i=right;i>=left;i--){
+            cout<<arr[bottom][i]<<" ";
+            
+        }
+        bottom--;
+        for(int i=bottom;i>=top;i--){
+            cout<<arr[i][left]<<" "; 
+        }
+        left++;
+     }
     
-}
+ }
