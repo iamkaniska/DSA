@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    cout<<"Enter the size of an array: ";
     int n;
     cin>>n;
     int arr[n][n];
