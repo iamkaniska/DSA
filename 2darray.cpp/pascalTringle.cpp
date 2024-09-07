@@ -15,7 +15,7 @@ int main(){
             }
         }
     }
-    cout<<endl;
+    cout<<endl; //next line
     for(int i=0;i<n;i++){
         for(int j=0;j<=i;j++){
             cout<<arr[i][j];
@@ -23,7 +23,7 @@ int main(){
         cout<<endl;
     }
 
-    // for specific row
+    // for row
     int row;
     cin>>row;
     if(row<n){
