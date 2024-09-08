@@ -1,3 +1,4 @@
+//spiral matrix easist way
 #include<iostream>
 using namespace std;
 int main(){
@@ -49,5 +50,4 @@ int main(){
         }
         
      }
-    
  }
