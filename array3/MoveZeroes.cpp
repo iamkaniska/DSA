@@ -1,3 +1,4 @@
+//this method work when only move zeroes to the end... other wise the startting part fill with unorder array element
 #include<iostream>
 using namespace std;
 int main(){
@@ -13,10 +14,10 @@ int main(){
         if(arr[i]!=0){
             i++;
         }
-        if(arr[i] && arr[j]==0){
+        if(arr[j]==0){
             j--;
         }
-        if(i>=j){
+        if(i>j){
             break;
         }
         if(arr[i]==0){
