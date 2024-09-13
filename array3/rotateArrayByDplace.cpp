@@ -12,8 +12,12 @@ int main(){
     int index=0;
     for(int i=0;i<n;i++){
         if(arr[i]==target){
-            
+            target=i;
+            target++;
         }
+    }
+    for(int i=target;i<n;i++){
+        
     }
 
 }
