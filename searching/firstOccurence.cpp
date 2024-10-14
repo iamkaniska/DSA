@@ -34,6 +34,7 @@
 // }
 
 
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -50,20 +51,20 @@ int main(){
     int target;
     cout<<"Enter target value: ";
     cin>>target;
+    int ans=0;
     while(low<=hi){
         int mid=low+(hi-low)/2;
-        if(arr[mid]==target && arr[mid-1]==target){
+        if(arr[mid]==target){
+             ans=mid;
             hi=mid-1;
-            if(arr[mid]==target){
-                cout<<arr[mid];
-                break;
-            }
-            else if(arr[mid]<target){
+
+        }
+        else if(arr[mid]<target){
             low=mid+1;
         }
         else{
             hi=mid-1;
         }
-        }
     }
+    cout<<ans;
 }
