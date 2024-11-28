@@ -60,10 +60,8 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> weights[i];
     }
-
     cout << "Enter the number of days: ";
     cin >> days;
-
     Solution solution;
     int result = solution.shipWithinDays(weights, days);
 
