@@ -1,4 +1,4 @@
-//coco eating banana leetcode problem
+//coco eating banana leetcode problem solve
 #include <iostream>
 #include <vector>
 #include <cmath>
