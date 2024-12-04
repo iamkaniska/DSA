@@ -27,14 +27,14 @@ int main(){
             idx=i;
             break;
         } 
-    }
+    } 
     // reverse if pivot not exist
     if(idx==-1){
         reverse(v.begin(),v.end());
         
     }
     else
-    // reverse after pivot
+    // reverse after pivot (1)
     reverse(v.begin()+idx+1,v.end());
     // idx swap with the next big element with pivot
     int j=-1;
