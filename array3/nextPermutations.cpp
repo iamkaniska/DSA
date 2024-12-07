@@ -1,7 +1,9 @@
 /*
-input size--> 4
-input-->1 3 5 2
-output-->1 5 2 3 
+input size --> 4
+input -->1 3 5 2
+output -->1 5 2 3 
+
+
 */
 
 #include<iostream>
