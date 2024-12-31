@@ -31,6 +31,8 @@ int main(){
 
     Student D(A); //copy constructor
     D.name="kapil"; //deep copy
+
+    
     cout<<A.marks<<" "<<A.name<<" "<<A.roll_no<<endl;
     cout<<B.marks<<" "<<B.name<<" "<<B.roll_no<<endl;
      cout<<C.marks<<" "<<C.name<<" "<<C.roll_no<<endl;
