@@ -5,6 +5,7 @@ class Student {
     string name;
     int roll_no;
     int marks;
+    int data;
 
     Student(){ //default constructor // we use it for run objects with constructor and without constructor
 
@@ -18,6 +19,7 @@ class Student {
 
 int main(){
     Student A("Kaniksa",32,100); // with constructor
+    A.data=33;
 
     Student B; // run without constructor 
     B.name ="Kaniska Maity";
@@ -33,9 +35,9 @@ int main(){
     D.name="kapil"; //deep copy
 
     
-    cout<<A.marks<<" "<<A.name<<" "<<A.roll_no<<endl;
+    cout<<A.marks<<" "<<A.name<<" "<<A.roll_no<<" "<<A.data<<endl;
     cout<<B.marks<<" "<<B.name<<" "<<B.roll_no<<endl;
-     cout<<C.marks<<" "<<C.name<<" "<<C.roll_no<<endl;
+    cout<<C.marks<<" "<<C.name<<" "<<C.roll_no<<endl;
     cout<<D.marks<<" "<<D.name<<" "<<D.roll_no<<endl;
 
 

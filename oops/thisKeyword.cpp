@@ -27,13 +27,10 @@ class Crickter{
 };
 
 
-//print using function
+//print using function and outside of class
 void task(Crickter c){
     cout<<c.name<<" "<<c.runs<<" "<<c.avg<<" "<<endl;
 };
-
-
-
 
 int main(){
     Crickter c1;

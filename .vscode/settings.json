@@ -1,11 +1,10 @@
-
 {
-    "files.exclude": {
-        "**/*.exe": true
-    },
-    "search.exclude": {
-        "**/*.exe": true
-    },
+  "files.exclude": {
+    "**/*.exe": true
+  },
+  "search.exclude": {
+    "**/*.exe": true
+  },
   "C_Cpp_Runner.msvcBatchPath": "",
   "files.associations": {
     "iostream": "cpp",
