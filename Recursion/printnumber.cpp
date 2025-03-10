@@ -34,7 +34,7 @@
 // }
 
 
-/* make a function which calculate the factorialof n using recursion */
+/* make a function which calculate the factorial of n using recursion */
 // #include<iostream>
 // using namespace std;
 // int fact(int n){
@@ -43,8 +43,6 @@
 //     }
 //     int ans=n*fact(n-1);
 //     return ans;
-
-
 // }
 // int main(){
 //     int n;
