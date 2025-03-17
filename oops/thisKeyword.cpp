@@ -53,4 +53,5 @@ int main(){
     c2.task2(6);
 
     cout<<c1.temp(); //avarage using return function
+
 }
