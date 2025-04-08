@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int n;
-    cin>>n;
-    int arr[n];
-    for (int i = 0; i < n; i++)
-    {
-        cin>>arr[i];
+
+class Node{
+    public:
+    int data;
+    Node* next;
+
+
+    Node(int val){
+        data=val;
+        next=NULL;
     }
-    for (int i = 0; i < n; i++)
-    {
-        if (i<n)
-        {
-            cout<<arr[0]<<arr[2]<<arr[3];
-            break;
-        }
-    }  
+};
+int main(){
+    Node *x=new Node(5);
+    cout<<x->data<<" "<<x->next;
+
 }
