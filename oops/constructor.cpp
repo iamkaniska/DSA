@@ -28,6 +28,10 @@ int main(){
 
     //swithcing
     Student C=A;
+
+
+
+    
     C.name="kannan"; //deep copy, its actullay pass by value not reference like using & operator
 
 
