@@ -27,20 +27,55 @@
 
 
 
+// #include<iostream>
+// using namespace std;
+// class Node{
+//     public:
+//     int val;
+//     Node*next;
+
+//     Node(int val){
+//     this->val=val;
+//         next=NULL;
+//     }
+
+// };
+// int main(){
+//     Node *ptr=new Node(5);
+//     cout<<ptr->next<<" "<<ptr->val;
+// }
+
+
 #include<iostream>
 using namespace std;
-class Node{
+class Student{
     public:
-    int val;
-    Node*next;
+    string name;
+    int roll_no;
+    float cgpa;
 
-    Node(int val){
-    this->val=val;
-        next=NULL;
+    // Student(){
+
+    // }
+    Student(string n,int r,float c){
+        name=n;
+        roll_no=r;
+        cgpa=c;
     }
-
 };
 int main(){
-    Node *ptr=new Node(5);
-    cout<<ptr->next<<" "<<ptr->val;
+    // Student s;
+    //instead of these we use constructor
+   /*  s.name="kaniska";
+    s.cgpa=6.7;
+    s.roll_no=1741;
+    cout<<s.name<<" "<<s.roll_no<<" "<<s.cgpa<<endl; */ 
+
+    Student p("Kaniska",1730,9.1);
+    Student*k=&p;
+    cout<<p.name;
+    (*k).name=" sunny";
+    cout<<p.name;
+
+    // cout<<p.name<<" "<<p.roll_no<<" "<<p.cgpa<<endl;
 }

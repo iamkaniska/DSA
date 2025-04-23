@@ -38,7 +38,7 @@ void printList(Node* head) {
         temp = temp->next;
     }
 
-    cout << "NULL" << endl;52
+    cout << "NULL" << endl;
     
 }
 
