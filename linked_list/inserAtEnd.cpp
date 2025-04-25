@@ -30,11 +30,7 @@ void insertEnd(Node* a, int n){
     }
     a->next=add;
 };
-void insertHead(Node*& head, int data) {
-    Node* newNode = new Node(data);
-    newNode->next = head;
-    head = newNode; // Update the actual head pointer
-}
+
 
 
 int main(){
@@ -51,10 +47,9 @@ int main(){
     e->next=f;
     
     displayTwo(a);
-    // insertEnd(a,90);
-    // displayTwo(a);
-    insertHead(a,80);
+    insertEnd(a,90);
     displayTwo(a);
+   
 
     
 
