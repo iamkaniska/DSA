@@ -1,4 +1,4 @@
-#include<iostream>
+/* #include<iostream>
 using namespace std;
 class Node{
     public:
@@ -49,5 +49,61 @@ int main(){
     InsertAtEnd(b,100);
     display(a);
 
+
+} */
+
+
+#include<iostream>
+using namespace std;
+class Node{
+    public:
+    int data;
+    Node* next;
+
+    Node(int data){
+        this->data=data;
+        next=NULL;
+    }
+};
+void print(Node* n){
+    while(n!=NULL){
+        cout<<n->data<<" ";
+        n=n->next;
+    }
+    cout<<endl;
+};
+void insertAtHead(Node* &head, int y){
+    Node* add=new Node(y);
+    add->next=head;
+    head=add;
+}
+void insertAtTail(Node* &head, int x){
+    Node* add=new Node(x);
+    Node* temp=head;
+    while(temp->next!=NULL){
+        temp=temp->next;
+    }
+    temp->next=add;
+
+};
+
+int main(){
+    Node* a= new Node(10);
+    Node* b= new Node(20);
+    Node* c= new Node(30);
+    Node* d= new Node(40);
+    Node* e= new Node(50);
+    Node* f= new Node(60);
+    a->next=b;
+    b->next=c;
+    c->next=d;
+    d->next=e;
+    e->next=f;
+    f->next=NULL;
+    print(a);
+    // insertAtTail(a,80);
+    // print(a);
+    insertAtTail(a,90);
+    print(a);
 
 }
