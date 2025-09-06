@@ -1,5 +1,7 @@
 /* delete Node from a linkedlist */
-/* #include<iostream>
+
+
+ #include<iostream>
 using namespace std;
 class Node{
     public:
@@ -27,7 +29,7 @@ void display(Node* head){
 // }
 void Deletenode(Node* head,int x){
     Node* temp=head;
-    int idx=0;
+    int idx=1;
     while(idx<x-1){
         temp=temp->next;
         idx++;
@@ -50,12 +52,12 @@ int main(){
     f->next=NULL;
     display(a);
     // DeleteNode(d);
-    Deletenode(a,2);
+    Deletenode(a,0);
     display(a);
 
 
-} */
-
+} 
+/* 
 #include<iostream>
 using namespace std;
 class Node{
@@ -69,8 +71,8 @@ class Node{
 };
 void display(Node* head){
     while(head!=NULL){
-        head=head->next;
         cout<<head->data<<" ";
+        head=head->next;
     }
     cout<<endl;
 }
@@ -96,3 +98,4 @@ int main(){
     display(a);
 
 }
+ */
