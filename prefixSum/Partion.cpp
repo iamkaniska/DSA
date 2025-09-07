@@ -16,6 +16,7 @@ int main(){
             break;
         }
     }
+    //logic
     if(flag==true) cout<<"this is good "<<idx;
     else cout<<"this is bad";
 
